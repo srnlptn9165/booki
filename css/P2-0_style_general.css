@@ -1,0 +1,215 @@
+/*  box-sizing => content-box|border-box|inherit */
+* {
+    box-sizing: border-box; 
+}
+
+/* ================================================================== */
+/* ------------        Taille POLICE CARACTERES         ------------- */
+/* ================================================================== */
+
+body {
+    font-family: 'Raleway', sans-serif;  
+}
+ 
+p {
+    display: block;/*
+    margin: 6px 0 10px 0px;*/
+    font-size: 15px;
+
+    border: 2px dotted red;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;/*
+    margin: 20px 0 10px 40px;*/
+
+    border: 2px dotted blue;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+
+    border: 2px dotted blueviolet;
+}
+
+h3 {
+    margin-left: 18px;
+    font-weight: bold;
+    
+    border: 2px dotted green;
+}
+
+/* libellés des filtres, des divisions du footer */
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px dotted orange;
+}
+
+/* ================================================================== */
+/*  ----                  LISTES sans puce                      ----- */
+/* ================================================================== */
+
+ul {
+    list-style: none;/* puce */
+    padding: 0; /*suppression de l'espace automatique à gauche de la balise "ul" */
+}
+
+/* ================================================================== */ 
+/* ----- LIENS sans sous-lignage et avec changement au survol -----   */
+/* ================================================================== */ 
+
+li a {
+    display: block;
+    text-decoration: none; /* souligné du lien */
+    border: 2px dashed brown;
+    color: black;/*
+    margin: 6px 0 10px 0px;*/
+}
+
+li:hover {
+    font-weight: bold;
+    color:#0065FC;
+}
+
+li a:hover {
+    color:#0065FC;
+}
+
+li a:visited {
+    color: black;
+  }
+
+/* ================================================================== */ 
+/* ----------------             CONTAINERS                ----------- */
+/* ================================================================== */
+
+.flex-container {
+    display: flex;
+    
+    background-color: yellow;
+    flex-wrap:wrap; /*pour permettre un retour à la ligne si besoin*/
+}
+
+/* container d'une largeur totale de l'écran ou du contenant */
+.container {
+    display: block;
+    width: 100%;
+    
+    border: double 2px red;
+}
+
+ /* container d'une 1/2 largeur de l'écran ou du contenant */
+.half-container {
+    display: block;
+    width: 50%;
+    
+    border: 2px double green;
+}
+
+/* container d'une largeur de 2/3 de l'écran ou du contenant */
+.two-third-container {
+    display: block;
+    width: 66%;
+    
+    border: 2px solid purple;
+}
+
+/* container d'une largeur d'1/3 de l'écran ou du contenant */
+.third-container {
+    display: block;
+    width: 33%;
+    
+    border: 2px dashed grey;
+}
+
+/* container d'une largeur d'1/4 de l'écran ou du contenant */
+.quarter-container {
+    display: block;
+    width: 25%;
+    
+    border: 2px solid rgb(231, 60, 89);
+   }
+
+/* ================================================================== */
+/* -----------   BORDS ARRONDIS pour cartes ou boutons  ------------- */
+/* ================================================================== */
+
+/*filtres*/
+.rounded-top-left {
+    border-top-left-radius: 35px;
+}
+
+.rounded-top-right {
+    border-top-right-radius: 35px;
+}
+
+.rounded-bottom-left {
+    border-bottom-left-radius: 35px;
+}
+
+.rounded-bottom-right {
+    border-bottom-right-radius: 35px;
+}
+
+.rond {
+    border-radius: 20%;
+}
+
+/*Search-button or card-hotel*/
+.curved-top-left {
+    border-top-left-radius: 20px;
+}
+
+.curved-top-right {
+    border-top-right-radius: 20px;
+}
+
+.curved-bottom-left {
+    border-bottom-left-radius: 20px;
+}
+
+.curved-bottom-right {
+    border-bottom-right-radius: 20px;
+}
+
+/* ================================================================== */
+/*   -----                      ICONS                           ----- */
+/* ================================================================== */
+
+.icon--small {
+    font-size: small;
+} 
+
+.icon--medium {
+    font-size: medium;
+}
+
+.icon--x-large {
+    font-size: x-large;
+}
+
+.icon--large {
+    font-size: large;
+}
+
+.icon--xx-large {
+    font-size: xx-large;
+}
+
+/* ================================================================== */
+/* ===========================  COULEURS  =========================== */
+/* ================================================================== */
+.bleu {
+    color: #0065FC;
+}
+
+.bleu--clair {
+    color: #DEEBFF);
+}
+
+.fond-gris {
+    color: #F2F2F2;
+}
