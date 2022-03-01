@@ -15,7 +15,7 @@ p {
     display: block;/*
     margin: 6px 0 10px 0px;*/
     font-size: 15px;
-
+    /**/
     border: 2px dotted red;
 }
 
@@ -23,28 +23,29 @@ h1 {
     font-size: 25px;
     font-weight: bold;/*
     margin: 20px 0 10px 40px;*/
-
+    /**/
     border: 2px dotted blue;
 }
 
 h2 {
     font-size: 20px;
     font-weight: bold;
-
+    /**/
     border: 2px dotted blueviolet;
 }
 
 h3 {
     margin-left: 18px;
     font-weight: bold;
-    
+    /**/
     border: 2px dotted green;
 }
 
-/* libellés des filtres, des divisions du footer */
+/* libellés des filtres, des titres blocs du footer */
 .label {
     font-size: 18px;
     font-weight: bold;
+    /**/
     border: 2px dotted orange;
 }
 
@@ -62,11 +63,10 @@ ul {
 /* ================================================================== */ 
 
 li a {
-    display: block;
+    display: inline-block;
     text-decoration: none; /* souligné du lien */
     border: 2px dashed brown;
-    color: black;/*
-    margin: 6px 0 10px 0px;*/
+    color: black;
 }
 
 li:hover {
@@ -211,5 +211,5 @@ li a:visited {
 }
 
 .fond-gris {
-    color: #F2F2F2;
+    background-color: #F2F2F2;
 }

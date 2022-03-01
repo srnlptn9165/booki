@@ -28,25 +28,27 @@
       <!-- ===================================================== -->
       <!--                  HEADER                               -->
       <!-- ===================================================== -->
-      <header class="flex-container ">
-<!--
-        <picture class="half-container flex-container picture-logo">
-            <img class="logo" src="./images/logo/Booki.png" alt="Nouveau site Booki" />
+      <header class=" flex-container ">
+
+        <picture class="half-container header__picture">
+          
+            <img class="header__logo" src="./images/logo/Booki.png" alt="Nouveau site Booki" />
+          
         </picture>
         
-        <nav class="half-container ">
-            <ul class="flex-container">
-                <li class="flex-container quarter-container menu" id="heb"><a href="#para_hebergements">Hébergements</a></li>
-                <li class="flex-container quarter-container menu" id="act"><a href="#para_activites">Activités</a></li>
+        <nav class="half-container header__nav">
+            <ul class="header__bloc-menu">
+                <li class=" header__menu" id="heb"><a href="#para_hebergements">Hébergements</a></li>
+                <li class=" header__menu" id="act"><a href="#para_activites">Activités</a></li>
             </ul>
         </nav> 
--->
+
       </header>
 
     <!-- =========================================================== -->
     <!--                    RECHERCHE et FILTRES                     -->
     <!-- =========================================================== -->
-    <section class="container FiltreRecherche">
+    <section class="s-recherche">
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p class="commentaire">En plein centre ville ou en pleine nature</p>
       <br>
@@ -128,7 +130,7 @@
     
     <!--   Section Hébergements à Marseille   -->
 
-    <section class="flex-container S-Hebergements" id="para_hebergements">
+    <section class="flex-container s-hebergements" id="para_hebergements">
 <!--
         <div class="two-third-container flex-container B-Hebergements rounded-top-left rounded-top-right rounded-bottom-left rounded-bottom-right ">
 
@@ -463,9 +465,9 @@
 
 <!-- Section comprenant titre + bloc global des cartes (rouge) -->
 
-    <section class="S-Activites flex-container" id="para_activites">
+    <section class=" flex-container s-activites" id="para_activites">
       
-      <h2 class="S-Activites__Titre">Activités à Marseille</h2>
+      <h2 class="s-activites__titre">Activités à Marseille</h2>
 
 <!--bloc regroupant l'ensemble des cartes (vert)-->
 <!--
@@ -598,12 +600,12 @@
     <!-- ******************************************************** -->
     <!-- ****                  FOOTER                        **** -->
     <!-- ________________________________________________________ -->
-        <footer class="flex-container footer">
-<!--
-          <div class="container flex-container footer__container">
+        <footer class="flex-container fond-gris">
 
-            <div class="flex-container footer__div">
-              <h2 class="footer__section-titre label label--footer">A propos</h2>
+          <div class=" flex-container footer__container">
+
+            <div class="third-container flex-container footer__bloc">
+              <h2 class="footer__section-titre label">A propos</h2>
               <div class="footer__bloc-liens">
                 <ul class="bloc-liens">
                   <li><a href="#">Fonctionnement du site</a></li>
@@ -613,8 +615,8 @@
               </div>
             </div>
 
-            <div class="flex-container footer__div">
-              <h2 class="footer__section-titre label label--footer">Nos hébergements</h2>
+            <div class="third-container flex-container footer__bloc">
+              <h2 class="footer__section-titre label">Nos hébergements</h2>
               <div class="footer__bloc-liens">
                 <ul class="bloc-liens">
                   <li><a href="#">Charte qualité</a></li>
@@ -623,8 +625,8 @@
               </div>
             </div>
 
-            <div class="flex-container footer__div">
-              <h2 class="footer__section-titre label label--footer">Assistance</h2>
+            <div class="third-container flex-container third-container footer__bloc">
+              <h2 class="footer__section-titre label">Assistance</h2>
               <div class="footer__bloc-liens">
                 <ul class="bloc-liens">
                   <li><a href="#">Centre d'aide</a></li>
@@ -634,7 +636,7 @@
             </div>
 
           </div>
--->
+
         </footer>   
 
     </body>

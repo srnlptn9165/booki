@@ -1,0 +1,18 @@
+/* Footer - séparation du bloc précédent */
+footer {
+    margin-top: 60px;
+}
+
+/* alignement des 3 blocs sur une même ligne */
+.footer__container {
+    width: 100%;
+    flex-direction: row;
+    margin-left: 2%;
+}
+
+/* alignement vertical des items de chaque bloc */
+.footer__bloc {
+    flex-direction: column;
+    
+}
+
