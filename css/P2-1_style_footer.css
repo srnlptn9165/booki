@@ -13,6 +13,10 @@ footer {
 /* alignement vertical des items de chaque bloc */
 .footer__bloc {
     flex-direction: column;
-    
 }
 
+/*   > 992 px : écran d'ordinateur */
+@media screen and (min-width: 992px)      
+{
+
+}

@@ -6,3 +6,9 @@ header {
     width: 25%;
     padding: 5% 0 5% 0;
 }
+
+/*   > 992 px : écran d'ordinateur */
+@media screen and (min-width: 992px)      
+{
+
+}
