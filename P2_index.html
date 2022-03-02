@@ -36,10 +36,10 @@
           
         </picture>
         
-        <nav class="half-container header__nav">
-            <ul class="header__bloc-menu">
-                <li class=" header__menu" id="heb"><a href="#para_hebergements">Hébergements</a></li>
-                <li class=" header__menu" id="act"><a href="#para_activites">Activités</a></li>
+        <nav class=" half-container header__nav">
+            <ul class="flex-container header__bloc-menu">
+                <li class=" menu" id="heb"><a href="#para_hebergements">Hébergements</a></li>
+                <li class=" menu" id="act"><a href="#para_activites">Activités</a></li>
             </ul>
         </nav> 
 
@@ -131,12 +131,12 @@
     <!--   Section Hébergements à Marseille   -->
 
     <section class="flex-container s-hebergements" id="para_hebergements">
-<!--
+
         <div class="two-third-container flex-container B-Hebergements rounded-top-left rounded-top-right rounded-bottom-left rounded-bottom-right ">
 
           <h2 class="TitreSection">Hébergements à Marseille</h2>
           <div class="B-Card-Hebergements flex-container">
--->
+
             <!-- 1 -->           <!--          
             <a href="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" title="Auberge de la Cannebiere">
 -->
@@ -330,52 +330,49 @@
               <!--
             </a>      
 -->
-<!--
-          </div>
-          <div class="B-Card-Hebergements__plus">
-              <a class="B-Card-Hebergements__plus--param"  href="#">Afficher plus</a>
-          </div>
 
--->          
-            <!-- Afficher plus -->
-            
-<!--        
+          </div>
+                      <!-- Afficher plus -->
+          <div class="b-card-hebergements__plus">
+              <a class="b-card-hebergements__plus--param"  href="#">Afficher plus</a>
+          </div>
+               
         </div>
--->
+
           <!--   ASIDE Les plus populaires   -->
-<!--
-          <aside class="third-container B-Populaire rounded-top-left rounded-top-right rounded-bottom-left rounded-bottom-right">
 
-            <article class="B-Populaire__Entete">
+          <aside class="third-container b-populaire carte-rounded">
 
-              <h2 class="TitreSection--populaire">Les plus populaires</h2>
-              <div class="B-Populaire__icon-stat">
-                <button class="B-Populaire__icon-stat" onclick="filterSelection('cote')">
+            <article class="b-populaire__entete">
+
+              <h2 class="titresection--populaire">Les plus populaires</h2>
+              <div class="b-populaire__icon-stat">
+                <button class="b-populaire__icon-stat" onclick="filterselection('cote')">
                   <i class="fas fa-chart-line " ></i>
                 </button>
               </div>
 
             </article>
--->  
+
            <!--       ****      TOP 1     ****      -->
-<!--          
+         
            <a href="./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">     
 
-            <article class="B-Populaire__Card">
+            <article class=" b-populaire__card carte-rounded">
 
-              <picture class="half-container flex-container B-Populaire__Card-img">
-                <img class="rounded-top-left rounded-bottom-left B-Populaire__Card-img-param" src="./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"   title="Le soleil du matin" >
+              <picture class="half-container flex-container b-populaire__card-img">
+                <img class="rounded-top-left rounded-bottom-left b-populaire__card-img-param" src="./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"   title="Le soleil du matin" >
               </picture>
 
-              <div class="half-container flex-container B-Populaire__Card-infos">
+              <div class="half-container flex-container b-populaire__card-infos">
 
-                <div class="B-Populaire__Card-infos-prix">
-                  <h3 class="Card-infos__name--hotel"><b>Hôtel Le soleil du matin</b></h3>
-                  <p class="Card-infos__price--heb">Nuit à partir de 128 <b>€</b></p>
+                <div class="b-populaire__card-infos-prix">
+                  <h3 class="card-infos__name--hotel"><b>Hôtel Le soleil du matin</b></h3>
+                  <p class="card-infos__price--heb">Nuit à partir de 128 <b>€</b></p>
                 </div>
 
-                <div class="B-Populaire__Card-infos-star">
-                  <div class ="Card-infos__star" >
+                <div class="b-populaire__card-infos-star">
+                  <div class ="card-infos__star" >
                     <i class="fa-solid fa-star" ></i>
                     <i class="fa-solid fa-star" ></i>
                     <i class="fa-solid fa-star" ></i>
@@ -389,25 +386,25 @@
             </article>
 
           </a>
--->
+
             <!--       ****       TOP 2    ****      -->
-<!--            
-          <a href="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" title="Au coeur de l'eau">
+            
+          <a href="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" >
 
-            <article class="B-Populaire__Card">
+            <article class="b-populaire__card carte-rounded">
 
-              <picture class="half-container flex-container B-Populaire__Card-img">
-                <img class="rounded-top-left rounded-bottom-left B-Populaire__Card-img-param" src="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"   title="Au coeur de l'eau" >
+              <picture class="half-container flex-container b-populaire__card-img">
+                <img class="rounded-top-left rounded-bottom-left b-populaire__card-img-param" src="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"   title="Au coeur de l'eau" >
               </picture>
 
-              <div class="half-container flex-container B-Populaire__Card-infos">
-                <div class="B-Populaire__Card-infos-prix">
-                  <h3 class="Card-infos__name--hotel"><b>Au coeur de l'eau<br>Chambres d'hôtes</b></h3>
-                  <p class="Card-infos__price--heb">Nuit à partir de 71 <b>€</b></p>
+              <div class="half-container flex-container b-populaire__card-infos">
+                <div class="b-populaire__card-infos-prix">
+                  <h3 class="card-infos__name--hotel"><b>Au coeur de l'eau<br>Chambres d'hôtes</b></h3>
+                  <p class="card-infos__price--heb">Nuit à partir de 71 <b>€</b></p>
                 </div>
 
-                <div class="B-Populaire__Card-infos-star">
-                  <div class ="Card-infos__star" >
+                <div class="b-populaire__card-infos-star">
+                  <div class ="card-infos__star" >
                     <i class="fa-solid fa-star" ></i>
                     <i class="fa-solid fa-star" ></i>
                     <i class="fa-solid fa-star" ></i>
@@ -420,26 +417,26 @@
             </article>
 
           </a>
--->          
+          
           <!--       ****       TOP 3    ****      -->
-<!--            
+            
           <a href="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg" title="Au coeur de l'eau">
 
-            <article class="B-Populaire__Card">
+            <article class="b-populaire__card carte-rounded">
             
-              <picture class="half-container flex-container B-Populaire__Card-img">
-                <img class="rounded-top-left rounded-bottom-left B-Populaire__Card-img-param" src="./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"   title="Au coeur de l'eau" >
+              <picture class="half-container flex-container b-populaire__card-img">
+                <img class="rounded-top-left rounded-bottom-left b-populaire__card-img-param" src="./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"   title="Au coeur de l'eau" >
               </picture>
             
-              <div class="half-container flex-container B-Populaire__Card-infos">
+              <div class="half-container flex-container b-populaire__card-infos">
 
-                <div class="B-Populaire__Card-infos-prix">
-                  <h3 class="Card-infos__name--hotel"><b>Au coeur de l'eau<br>Chambres d'hôtes</b></h3>
-                  <p class="Card-infos__price--heb">Nuit à partir de 71 <b>€</b></p>
+                <div class="b-populaire__card-infos-prix">
+                  <h3 class="card-infos__name--hotel"><b>Au coeur de l'eau<br>Chambres d'hôtes</b></h3>
+                  <p class="card-infos__price--heb">Nuit à partir de 71 <b>€</b></p>
                 </div>
             
-                <div class="B-Populaire__Card-infos-star">
-                  <div class ="Card-infos__star" >
+                <div class="b-populaire__card-infos-star">
+                  <div class ="card-infos__star" >
                     <i class="fa-solid fa-star" ></i>
                     <i class="fa-solid fa-star" ></i>
                     <i class="fa-solid fa-star" ></i>
@@ -483,7 +480,7 @@
 <!--bloc article présentant la carte élémentaire -->
 
           <a href="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" title="Vieux port">
-            <article class="quarter-container flex-container bloc-quart-activites__article carte-blanche ">
+            <article class="quarter-container flex-container bloc-quart-activites__article carte-rounded ">
 
               <picture class="bloc-quart-activites__img">           
                 <img class="bloc-quart-activites__img--X rounded-top-right rounded-top-left" src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port" title="Vieux Port">
@@ -504,7 +501,7 @@
 <!-- bloc article présentant 1 carte  (bleu) + bloc article présentant 1 carte sur 1/2 marron (bleu petit) -->
 
           <a href="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" title="Fort de Pomègues">
-            <article class="half-container flex-container bloc-quart-activites__article bloc-quart-activites__article--demi carte-blanche">
+            <article class="half-container flex-container bloc-quart-activites__article bloc-quart-activites__article--demi carte-rounded">
 
               <picture class="bloc-quart-activites__img bloc-quart-activites__img--demi">
                 <img class="bloc-quart-activites__img--S  rounded-top-right rounded-top-left" src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" title="Fort de Pomègues" >
@@ -519,7 +516,7 @@
 <!-- bloc article présentant 1 carte  (bleu) + bloc article présentant 1 carte sur 1/2 marron (bleu petit) -->
 
           <a href="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" title="Iles du Frioul">
-            <article class="half-container flex-container bloc-quart-activites__article bloc-quart-activites__article--demi carte-blanche carte-bas">
+            <article class="half-container flex-container bloc-quart-activites__article bloc-quart-activites__article--demi carte-rounded carte-bas">
 
               <picture class="bloc-quart-activites__img bloc-quart-activites__img--demi">
                 <img class="bloc-quart-activites__img--S rounded-top-right rounded-top-left" src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul" title="Iles du Frioul">
@@ -541,7 +538,7 @@
 <!-- bloc article présentant 1 carte  (bleu) -->
 
           <a href="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" title="Calanques">
-            <article class="quarter-container flex-container bloc-quart-activites__article carte-blanche">
+            <article class="quarter-container flex-container bloc-quart-activites__article carte-rounded">
 
               <picture class="bloc-quart-activites__img">
                 <img class="bloc-quart-activites__img--X rounded-top-right rounded-top-left" src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" title="Parc National des Calanques">
@@ -563,7 +560,7 @@
 <!-- bloc article présentant 1 carte  (bleu) + bloc article présentant 1 carte sur 1/2 marron (bleu petit) -->
 
           <a href="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" title="Notre Dame de la Garde">
-            <article class="half-container flex-container bloc-quart-activites__article bloc-quart-activites__article--demi carte-blanche">
+            <article class="half-container flex-container bloc-quart-activites__article bloc-quart-activites__article--demi carte-rounded">
 
               <picture class="bloc-quart-activites__img bloc-quart-activites__img--demi">
                 <img class="bloc-quart-activites__img--S rounded-top-right rounded-top-left" src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" title="Notre-Dame-de-la-Garde">
@@ -578,7 +575,7 @@
 <!-- bloc article présentant 1 carte  (bleu) + bloc article présentant 1 carte sur 1/2 marron (bleu petit) -->
 
           <a href="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" title="Longchamp">
-            <article class="half-container flex-container bloc-quart-activites__article bloc-quart-activites__article--demi carte-blanche carte-bas">
+            <article class="half-container flex-container bloc-quart-activites__article bloc-quart-activites__article--demi carte-rounded carte-bas">
 
               <picture class="bloc-quart-activites__img bloc-quart-activites__img--demi">
                 <img class="bloc-quart-activites__img--S rounded-top-right rounded-top-left" src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" title="Parc Longchamp" >

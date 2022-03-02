@@ -1,5 +1,8 @@
 header {
     margin: 60px 2% 0 2%;
+    /*
+    border: 2px solid red;
+    */
 }
 
 .header__logo {
@@ -7,8 +10,45 @@ header {
     padding: 5% 0 5% 0;
 }
 
+nav ul {
+   justify-content: flex-end; /*positionner à droite les deux li*/
+   margin-right: 20px;
+
+   border: 2px dashed blue;
+
+}
+
+nav li {
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+
+    border: 2px solid purple;
+
+  }
+
+.menu a {
+    display: inline-block;
+    font-size: 15px;
+    margin-left : 2px;
+    margin-right: 2px;
+    max-width: 90%;
+
+    border: 2px dashed blueviolet;
+
+}
+
 /*   > 992 px : écran d'ordinateur */
 @media screen and (min-width: 992px)      
 {
 
+    nav li:hover {
+        border-top: 4px solid #0065FC;
+    }
+
+    .menu {
+        display: block;
+        width: 30%;
+    }
 }

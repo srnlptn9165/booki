@@ -12,8 +12,7 @@ body {
 }
  
 p {
-    display: block;/*
-    margin: 6px 0 10px 0px;*/
+    display: block;
     font-size: 15px;
     /**/
     border: 2px dotted red;
@@ -35,7 +34,6 @@ h2 {
 }
 
 h3 {
-    margin-left: 15px;
     font-weight: bold;
     /**/
     border: 2px dotted green;
@@ -62,9 +60,14 @@ ul {
 /* ----- LIENS sans sous-lignage et avec changement au survol -----   */
 /* ================================================================== */ 
 
+a {
+    text-decoration: none;/* souligné du lien */
+    color: black;
+}
+
 li a {
     display: inline-block;
-    text-decoration: none; /* souligné du lien */
+    text-decoration: none; 
     border: 2px dashed brown;
     color: black;
 }
@@ -74,11 +77,11 @@ li:hover {
     color:#0065FC;
 }
 
-li a:hover {
+a:hover {
     color:#0065FC;
 }
 
-li a:visited {
+a:visited {
     color: black;
   }
 
@@ -88,8 +91,8 @@ li a:visited {
 
 .flex-container {
     display: flex;
-    
-    background-color: yellow;
+    /*
+    background-color: yellow;*/
     flex-wrap:wrap; /*pour permettre un retour à la ligne si besoin*/
 }
 
@@ -173,6 +176,10 @@ li a:visited {
 
 .curved-bottom-right {
     border-bottom-right-radius: 20px;
+}
+
+.carte-rounded {
+    border-radius: 35px;
 }
 
 /* ================================================================== */

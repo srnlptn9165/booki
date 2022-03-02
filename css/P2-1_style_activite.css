@@ -3,35 +3,33 @@
     margin: 20px 2% 0 2%;
     display: flex;/*
     border: 2px dashed red;
-    padding: 10px 40px 10px 40px;
-    margin-top: 50px ;
-    margin-left: 50px;*/
+    */
 }
-
 
 /* particularité du titre de la section Activités, Section comprenant titre + bloc global des cartes (rouge)*/
+/*
 .s-activites__titre {
-    /*
-    border: 2px dotted red;*/
-}
+    border: 2px dotted red;
+}*/
+
 /* particularités du bloc regroupant l'ensemble des cartes (vert) */
 .s-activites__b-activites {
     display: flex;
     padding: 0px;
-    margin: 0;
-    background-color: red;/*
+    margin: 0;/*
+    background-color: red;
     border: 2px dashed green;
     */
 }
 
 /* particularités du bloc regroupant 1 carte ou 2 cartes (marron)*/
 .b-activites__bloc-quart-activites {
+    width: 24%;
+    margin: 0 ;
     /*
     border: 2px solid brown;
-    */
-    width: 24%;
     background-color: blueviolet;
-    margin: 0 ;
+    */
 }
 
 /* particularités du bloc article présentant la carte élémentaire (bleu) */
@@ -39,8 +37,7 @@
     background-color: white;
     border: 2px solid grey;
     height: 700px;
-    width: 100%;
-    
+    width: 100%;  
     box-shadow: 0px 5px 10px #F2F2F2;/*
     display: flex;
     */
@@ -90,7 +87,6 @@
     background-color: white;
     box-shadow: 0px 5px 10px #F2F2F2;
     height: 340px;
-    
     /*
     border: 2px double grey;
     */
@@ -102,7 +98,6 @@
     width: 100%;
     /*
     border: 2px double purple;
-    
     flex-direction: column;   
     */
 }
@@ -110,15 +105,13 @@
 /* photo de la carte activite sur 1/2 hauteur : particularités de l'image sur une demi colonne */
 .bloc-quart-activites__img--S {
     width: 100%;
-    height:275px;/*
-    padding: 0 2%;*/
+    height:275px;
     align-content: center;
-    object-fit: cover;
+    object-fit: cover;/*
+    padding: 0 2%;*/
 }
 
-.carte-blanche {
-    border-radius: 35px;
-}
+
 
 /*   > 992 px : écran d'ordinateur */
 @media screen and (min-width: 992px)      
