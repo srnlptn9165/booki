@@ -5,14 +5,11 @@ header {
     */
 }
 
-.header__logo {
-    width: 25%;
-    padding: 5% 0 5% 0;
-}
 
 nav ul {
    justify-content: flex-end; /*positionner à droite les deux li*/
    margin-right: 20px;
+   margin: 0 ;
 
    border: 2px dashed blue;
 }
@@ -41,11 +38,18 @@ nav li {
 /*   > 992 px : écran d'ordinateur */
 @media screen and (min-width: 992px)      
 {
+/* position du logo en haut à gauche */
+    .header__logo {
+        width: 15%;
+        padding: 2% 0 ;
+    }
 
+/* effets au survol de la souris version desktop*/
     nav li:hover {
         border-top: 4px solid #0065FC;
     }
 
+/* positionnement des menus version desktop */
     .menu {
         display: block;
         width: 30%;
