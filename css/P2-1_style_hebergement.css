@@ -28,6 +28,30 @@
     border: 2px dashed pink;
 }
 
+
+/* picture */
+.b-card-hebergements__card-img {
+    width: 100%;
+    height: 160px;
+}
+
+/* img bords haut arrondis */
+.b-card-hebergements__card-img-param {
+    display: block;
+    width: 100%;
+    margin: 1%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* bloc informations de la carte : libelle, prix, appréciation :  */
+.b-card-hebergements__card-infos {
+    margin: 1%;
+    border: 4px double purple;
+}
+
+/* paramètres des libellé, prix et étoiles dans le css général *//*
+
 /* bloc "Afficher plus" */
 .b-card-hebergements__plus {
     padding-top: 20px;
@@ -36,99 +60,5 @@
 
 .b-card-hebergements__plus--param {
     font-size: 15px;
-    font-weight: bold;
-}
-/***************************************************************/
-/* --------------- HEBERGEMENTS + ASIDE -------------------       */
-
-
-
-
-
-/* ----- Ensemble des cartes Hébergements  -------------       */
-.S-Hebergements {/*
-    border: 2px dashed red;*/
-    display: flex;
-    flex-direction: row;
-    margin: 50px 40px 0 80px;
-}
-
-/*Bloc Hebergement à Marseilles (vert) Titre + Bloc Cartes*/
-.B-Hebergements {
-    display: flex;
-    flex-direction: column;/*
-    border: 2px solid Green;*/
-    padding: 00px;
-    margin-right: 20px;
-    background-color: #F2F2F2;
- }
-    
-
-/*Bloc ensemble des cartes (bleu) */
-.B-Card-Hebergements {
-    display: flex;/*
-    border: 2px solid blue;*/
-    flex-wrap: wrap;
-    background-color: #F2F2F2;
-    margin-left: 50px;
-    margin-right: 0;
-    padding-right: 0;
-}
-.TitreSection {
-    margin-left: 60px;
-}
-/* --------------- Card  -------------------       */
-/* Ensemble Fond + image + Textes + étoiles  */
-
-.B-Card-Hebergements__Card-img{/*
-    border: 2px dashed green;*/
-    width: 100%;
-    padding: 3%;
-    height: 200px;
-    display: flex;
-    
-}
-.B-Card-Hebergements__Card-img-param {
-    display: block;
-    align-content: center;
-    width: 100%;
-    height: 200px;
-    object-fit: cover; 
-}
-
-/* Ensemble Textes + Etoiles */
-.B-Card-Hebergements__Card-infos {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-content: flex-start;
-    margin-left : 8px;/*
-    border: 4px double purple;*/
-}
-
-.Card-infos__name--hotel {
-    font-size: 28px;
-    font-weight: bold;
-    padding : 5px 0 5px 0;
-    margin: 0;
-}
-
-.Card-infos__price--heb {
-    font-size: 20px;
-    padding: 5px 0 5px 0;
-}
-
-.B-Card-Hebergements__Card-infos-star {
-    display: flex;
-    width: 100%;/*
-    border: 2px dashed greenyellow;*/
-    height: 20%;
-}
-.B-Card-Hebergements__plus{
-    margin: 60px;
-}
-
-.B-Card-Hebergements__plus--param {
-    font-size: 30px;
     font-weight: bold;
 }

@@ -223,9 +223,29 @@ a:visited {
 
 
 /* ============================================== */
+/* ------------- Nom et prix hotel -------------- */
+/* ============================================== */
+.card-infos__name--hotel {
+    margin: 6px 0 0 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card-infos__price--hotel {
+    display: flex;
+    margin : 3px 0 3px 0;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 5px;
+    /*
+    border: 2px dashed green;*/
+}
+
+/* ============================================== */
 /* ------------------ Etoiles ------------------- */
 /* ============================================== */
 .card-infos__star {
+    padding-top: 5px;
     color: #0065FC;
     display: flex;
 }
