@@ -13,14 +13,14 @@
 /* Bloc Entête titre + icon-stat   B-Populaire__Entete => ex AsideIcone*/
 .b-populaire__entete {
     width: 100%;
+    padding: 2%;
     display: flex;
     justify-content: space-between;/*
     border: 4px double purple;*/
 }
-
-.titresection--populaire {
-    margin-left: 15px;
-}
+/*
+.titre_section--populaire {}
+*/
 
 /* Bouton Statistique pour le bloc Les plus populaires B-Populaire__icon-stat => ex btn-cote */
 .b-populaire__icon-stat {
@@ -36,10 +36,11 @@
 .b-populaire__card {
     display: flex;
     width: 93%;
-    height: 250px;
+    height: 200px;
     margin: 20px 0;
     background-color: white;
     padding-right: 0px;
+    padding-left: 2%;
 }
 
 .b-populaire__card-img {
