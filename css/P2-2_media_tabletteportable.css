@@ -61,36 +61,80 @@
    /* ---------------------HEBERGEMENTS ---------------------*/
   .s-hebergements {
     flex-direction: column-reverse;
-    margin-right: 0 ;
+    margin: 0 ;
   }
 
   .third-container {
     width: 100%;
-    margin: 0;
-  }
+    }
 
   .two-third-container {
     width: 100%;
   }
+  
+  /* gloc les plus populaires fond gris */
+  .b-populaire {
+    width: 96%;
+    margin: 2%;
+  }
 
+  .b-hebergements {
+    width: 96%;
+    margin: 2%;
+  }
+
+  /*    --------         HEBERGEMENTS  ------------    */
+  .b-card-hebergements__hotel {
+    background-color: pink;
+    /*
+    width: 100%;*/
+  }
+
+
+  .b-card-hebergements__card-img {
+    background-color: green;
+    
+  }
+  
+  .b-card-hebergements__card-img-param {
+    /*
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 150px;*/
+    object-fit: cover; 
+  }
+
+
+  /* Ensemble Textes + Etoiles *//*
+  .b-card-hebergements__card-infos {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-top: 0px;
+    margin: 0px;/*
+    border: 4px double purple;*//*
+  }*/
+
+
+/*
   .b-card-hebergements {
     margin-left: 10px;
   }
 
   .b-card-hebergements__hotel {
-    height: 450px;
+    height: 350px;
   }
-  .b-card-hebergements__card-img-param{
+  .b-card-hebergements__card-img-param {
     height: 250px;
   }
-  .b-card-hebergements__card-infos{
-    padding-left: 30px;
-    height: 150px;
-  }
+  .b-card-hebergements__card-infos {
+    /*
+    padding-left: 30px;*//*
+    height: 150px;/*
+  }*/
 
-  .TitreSection {
-    margin-left: 10px;
-  }
 
  /* ---------------------ACTIVITES ---------------------*/
 .s-activites {
@@ -98,10 +142,10 @@
   border: 2px dashed red;*/
   padding: 10px 10px 10px 10px;
 }
-
+/*
 h1.s-activites__titre { 
   margin-left: 10px;
-}
+}*/
  
 /* bloc global des cartes (vert) */
 .s-activites__b-activites {
@@ -225,35 +269,5 @@ h1.s-activites__titre {
     color:#0065FC;
   }
 
-  /*    --------         HEBERGEMENTS  ------------    */
-  .b-card-hebergements__hotel {
-    width: 100%;
-  }
-
-
-  .b-card-hebergements__card-img{
-    width: 100%;
-  }
-  
-  .b-card-hebergements__card-img-param {
-    display: flex;
-    align-content: center;
-    margin: 10px 8px 10px 8px; /*loc img vs card-hotel*/
-    width: 100%;
-    height: 200px;
-    object-fit: cover; 
-  }
-
-
-  /* Ensemble Textes + Etoiles */
-  .b-card-hebergements__card-infos {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-content: flex-start;
-    padding-top: 0px;
-    margin: 0px;/*
-    border: 4px double purple;*/
-  }
 
 }

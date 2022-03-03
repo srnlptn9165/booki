@@ -22,7 +22,7 @@
 .b-card-hebergements__hotel {
     background-color: white;
     width: 30%; 
-    margin : 2% 3% 2% 0;/*espacement entre les card */     
+    margin : 2% 3% 0% 0;/*espacement entre les card */     
     display: flex;
     height: 270px;
     border: 2px dashed pink;

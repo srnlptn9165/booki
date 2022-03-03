@@ -36,8 +36,8 @@
 .b-populaire__card {
     display: flex;
     width: 93%;
-    height: 200px;
-    margin: 20px 0;
+    height: 180px;
+    margin: 10px 0;
     background-color: white;
     padding-right: 0px;
     padding-left: 2%;
