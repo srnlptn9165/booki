@@ -1,0 +1,259 @@
+/* Modifications valables indifféremment pour tablette ou portable */
+/*   < 992 px : tablette ou portable */
+@media screen and (max-width: 991px)        
+{ 
+
+/*    --------         HEADER    ------------            */
+/*    1. CONTAINER => nouvelles dispositions */ 
+  .half-container {
+    display: flex;
+    width:100%;/*
+    background-color: yellow;*/
+  }
+
+/* menu => quarter-container du header */
+  .menu {
+    display: flex;
+    width: 50%;
+    margin: 0%;
+    padding: 10px;
+  }
+
+  nav ul {
+    width: 100%;
+  }
+
+/*    2. Centrer le LOGO   */
+  .header__picture {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*    --------         RECHERCHE    ------------            */
+  /* non affichage du bouton Rechercher  */
+  .btn-search {
+    display: none;
+  }
+
+  /* affichage de l'icône glass */
+  .btn-search-min {
+    position:absolute;
+    padding: 10px;
+    left:350px;
+    background-color: #0065FC;
+    color:white;
+    cursor:pointer;
+    border-radius: 10px;
+    border: none;
+  }
+
+  /* au survol de l'icon glass */
+  .btn-search-min:hover {
+    background-color: grey;
+  }
+
+  .filter{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+   /* ---------------------HEBERGEMENTS ---------------------*/
+  .s-hebergements {
+    flex-direction: column-reverse;
+    margin-right: 0 ;
+  }
+
+  .third-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .two-third-container {
+    width: 100%;
+  }
+
+  .b-card-hebergements {
+    margin-left: 10px;
+  }
+
+  .b-card-hebergements__hotel {
+    height: 450px;
+  }
+  .b-card-hebergements__card-img-param{
+    height: 250px;
+  }
+  .b-card-hebergements__card-infos{
+    padding-left: 30px;
+    height: 150px;
+  }
+
+  .TitreSection {
+    margin-left: 10px;
+  }
+
+ /* ---------------------ACTIVITES ---------------------*/
+.s-activites {
+  display: flex;/*
+  border: 2px dashed red;*/
+  padding: 10px 10px 10px 10px;
+}
+
+h1.s-activites__titre { 
+  margin-left: 10px;
+}
+ 
+/* bloc global des cartes (vert) */
+.s-activites__b-activites {
+  display: flex;
+  flex-direction: column;/*
+  border: 2px dashed green;*/
+  padding: 0px;
+}
+
+/* bloc présentant 1 carte ou 2 cartes (marron) */
+.b-activites__bloc-quart-activites {
+  width: 100%;/*
+  border: 2px dashed brown;*/
+  padding: 0 2px 0 2px;
+}
+
+/* bloc article présentant 1 carte image + label  (bleu) */
+.bloc-quart-activites__article {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 5px;/*
+  border: 2px solid blue;*/
+}
+
+/* bloc article présentant 1 carte sur 1/2 marron (bleu petit) */
+.bloc-quart-activites__article--demi {/*
+  border: 2px dashed blue;*/
+  height: 300px;
+}
+
+/* bloc photo de la carte activite */
+.bloc-quart-activites__img {
+  width: 100%;/*
+  border: 2px dashed purple;*/
+  height: 250px;
+}
+
+/* photo de la carte activite */
+.bloc-quart-activites__img--X {
+  width: 100%;
+  height:250px;
+  padding: 0% ;
+  align-items: center;
+  object-fit: cover; 
+}
+
+/* bloc photo de la carte activite sur 1/2 hauteur*/
+.bloc-quart-activites__img--demi {/*
+  border: 2px solid purple;*/
+  height: 250px;
+}
+
+/* photo de la carte activite sur 1/2 hauteur*/
+.bloc-quart-activites__img--S {
+  width: 100%;
+  height:250px;
+  padding: 0%;
+  align-content: center;
+  object-fit: cover; 
+}
+
+/* libellé de la carte activite*/
+.bloc-quart-activites__label {/*
+  border: 2px solid yellow;*/
+  height: 50px ;
+}
+
+
+/* particularités des blocs  */
+
+.bloc2 {
+  margin: 0 ;
+}
+
+.bloc3 {
+  margin-right: 0%;
+}
+
+.carte-bas {
+  margin-top: 0px;
+}
+
+
+
+
+
+
+  /* ---------------------FOOTER ------------------------*/
+  .footer__bloc {
+    display: flex;
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+}
+
+/*------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------*/
+/*  --------------- 768 - 992 : TABLETTE -------------------------  */
+/*------------------------------------------------------------------*/
+@media screen and (max-width: 991px) and (min-width:768px)
+{
+
+/*    3. MENU sous ligné */ 
+/*    --------         HEADER    ------------            */
+  nav li:hover {
+    border-bottom: 2px dashed #0065FC;
+  }
+/*    --------         HEADER + FOOTER   ------------    */
+  li:hover {
+    font-weight: bolder;
+    background-color: #f2f2f2;
+  }
+
+  li a:hover {
+    color:#0065FC;
+  }
+
+  /*    --------         HEBERGEMENTS  ------------    */
+  .b-card-hebergements__hotel {
+    width: 100%;
+  }
+
+
+  .b-card-hebergements__card-img{
+    width: 100%;
+  }
+  
+  .b-card-hebergements__card-img-param {
+    display: flex;
+    align-content: center;
+    margin: 10px 8px 10px 8px; /*loc img vs card-hotel*/
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+  }
+
+
+  /* Ensemble Textes + Etoiles */
+  .b-card-hebergements__card-infos {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-top: 0px;
+    margin: 0px;/*
+    border: 4px double purple;*/
+  }
+
+}

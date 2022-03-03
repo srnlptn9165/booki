@@ -40,8 +40,8 @@ nav li {
 {
 /* position du logo en haut à gauche */
     .header__logo {
-        width: 15%;
-        padding: 2% 0 ;
+        width: 20%;
+        padding: 3% 0 ;
     }
 
 /* effets au survol de la souris version desktop*/

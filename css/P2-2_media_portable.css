@@ -1,0 +1,32 @@
+
+/*------------------------------------------------------------------*/
+/*  --------------- < 768 : téléphone PORTABLE -------------------  */
+/*------------------------------------------------------------------*/
+    /*  < 768 : téléphone portable  */
+    /* modification spécifique pour le portable pour le survol du menu */
+
+@media screen and (max-width: 767px)  
+{
+  /*    --------         HEADER    ------------            */
+  nav li:hover {
+    border-bottom : 2px double #0065FC;
+  }
+  /*    --------         HEADER + FOOTER   ------------            */
+  li:hover {
+    font-weight: bold;
+  }
+
+  li a:hover {
+    color:#0065FC;
+  }
+
+  li a:visited {
+    columns: black;
+  }
+  
+  /*    --------         HEBERGEMENTS  ------------    */
+  /* carte d'un hotel fond blanc, bords arrondis : img = nom - prix - étoiles */
+  .b-card-hebergements__hotel {
+    width: 100%;
+  }
+}
