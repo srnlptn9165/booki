@@ -1,3 +1,197 @@
 .s-recherche {
     margin: 20px 2% 0 2%;
 }
+
+/********************/
+
+/*  -----------   RECHERCHE ---------------------      */
+
+.commentaire {
+    padding: 10px 0 10px 0px;
+}
+
+.search-place {
+    padding: 10px 0 10px 0px;
+}
+/*   non affichage de la loupe sur desktop   */
+/*   > 992 px : écran d'ordinateur */
+@media screen and (min-width: 992px)      
+{
+    .FiltreRecherche{
+        margin-left: 50px;
+    }
+
+    .btn-search-min {
+        display: none;
+    }
+}
+
+/*icône place + texte saisie + bouton rechercher ou loupe*//*
+.search-place {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}*/
+
+/* position de la form : icon loc + input + btn rechercher */
+.search {
+    position: relative;
+    margin-left: 0;
+}
+
+/*     icone localisation                  */
+.btn-loc {
+    position: relative;
+    padding: 10px ;
+    margin-left: 0;
+    margin-right: 0px;   
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    cursor:pointer;
+    border: none;
+}
+
+.btn-loc:hover {
+    color: #0065FC;
+}
+
+/*Zone de saisie Recherche de lieu*/
+input {
+    position: absolute;
+    padding: 10px 0 10px 5px;
+    border: 1px solid #F2F2F2;
+    width: 330px;
+    font-size: 15px;
+    font-weight: bold;
+    }
+
+
+/*       Bouton Rechercher       */
+.btn-search {
+    position:absolute;
+    left:350px;
+    top: 0px;
+    background-color: #0065FC;
+    border:none;
+    color:white;
+    padding: 10px 20px;
+    margin: 00px;
+    text-align:center;
+    font-weight: bold;
+    text-decoration:none;
+    display:inline-block;
+    cursor:pointer;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 15px;
+}
+
+/*Survol du bouton Rechercher*/
+form.search .btn-search:hover {
+    background-color: lightblue;
+}
+
+/*------------------Filtres-----------------*/
+/* section Titre + ensemble des filtres*/
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter-title {
+    text-align: center;
+    padding: 10px;
+    margin: 5px 40px 5px 0;/*
+    border: 2px solid green;*/
+}
+
+
+/*ensemble des binômes filtre (icon + libellé)*/
+.bloc-filters {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /*border: 2px solid orange;*/
+}
+
+/* binôme "icon filtre + libellé du filtre */ 
+.bloc-filter-label {
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-left: none;
+    margin-right: 10px;
+}
+
+/* icon filtre  */
+.btn-filter {
+    padding: 15px;
+    background-color: #DEEBFF;
+    border: #DEEBFF;
+    border-radius: 25px;
+    border: none;
+    color: #0065FC;
+    cursor: pointer;
+}
+
+.familial {
+    padding: 12px 18px ;
+}
+
+/* libellé du filtre  */
+.card-right-arrounded {
+    display: inline-block;
+    padding: 10px ;
+    margin: 0 10px ;/*
+    border: 2px dashed grey;
+    border-left: none;*/
+}
+
+.bloc-filter-label:hover {
+    background-color: #F2F2F2;
+}
+
+.btn-filter:hover {
+    background-color: grey;
+    cursor:pointer;
+}
+
+/*-----------------Infos --------------------*/
+
+.infos {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0 ;
+}
+
+.btn-info {
+ /*   border:double purple;
+    color:black;*/
+    padding: 7px 15px ;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.fa-info {
+    background-color: #F2F2F2;
+    color:#0065FC;
+}
+
+/* Texte info  */
+.text_info {
+    padding: 0;
+    margin:0 0 0 10px;
+}
+/* --------------- Hébergements + Aside -------------------       */
+.hebergements {
+    display: flex;
+    flex-direction :row;
+}
+/* ----- Ensemble des cartes Hébergements  -------------       */
+.heb {
+    display: flex;
+    flex-wrap: wrap;
+}
