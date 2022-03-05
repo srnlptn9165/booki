@@ -157,6 +157,10 @@ a:visited {
     border-bottom-right-radius: 15px;
 }
 
+.rounded-filter {
+    border-radius: 35px;
+}
+
 .rond {
     border-radius: 20%;
 }
