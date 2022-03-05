@@ -18,20 +18,25 @@
     border: 2px dotted green;
 }*/
 
-/* carte d'un hotel fond blanc, bords arrondis : img = nom - prix - étoiles */
+/* carte d'un hotel fond blanc, bords arrondis : img = nom - prix - étoiles *//*
+.b-card-hebergements__hotel a {
+    border: 2px dotted purple;
+  }*/
+
 .b-card-hebergements__hotel {
-    background-color: white;
-    width: 290px; 
-    margin : 15px 15px 0 0;/*espacement entre les card */     
     display: flex;
+    background-color: white;
+    width: 31%; 
+    margin : 15px 15px 0 0;/*espacement entre les card */     
     height: 270px;/*
-    border: 2px dashed pink;*/
+    border: 2px dashed blue;*/
 }
 
 /* picture */
 .b-card-hebergements__card-img {
     width: 100%;
-    height: 160px;
+    height: 160px;/*
+    border: 2px dashed green;*/
 }
 
 /* img bords haut arrondis */
@@ -40,7 +45,8 @@
     width: 100%;
     height: 160px;
     margin: 1px;
-    object-fit: cover;
+    object-fit: cover;/*
+    border: 2px solid red;*/
 }
 
 /* bloc informations de la carte : libelle, prix, appréciation :  */

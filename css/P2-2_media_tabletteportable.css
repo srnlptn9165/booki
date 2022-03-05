@@ -40,12 +40,16 @@
   .btn-search-min {
     position:absolute;
     padding: 10px;
-    left:350px;
+    left:300px;
     background-color: #0065FC;
     color:white;
     cursor:pointer;
     border-radius: 10px;
     border: none;
+  }
+/*Zone de saisie Recherche de lieu*/
+input {
+  width: 300px;
   }
 
   /* au survol de l'icon glass */
@@ -75,18 +79,38 @@
   /* gloc les plus populaires fond gris */
   .b-populaire {
     width: 96%;
-    margin: 2%;
+    margin: 2%;/*
+    background-color: red;*/
   }
 
   .b-hebergements {
     width: 96%;
-    margin: 2%;
+    margin: 2%;/*
+    background-color: green;
+    display: flex;
+    flex-direction: column;*/
   }
 
   /*    --------         HEBERGEMENTS  ------------    */
+
   .b-card-hebergements__hotel {
-    width: 450px;
+    width: 100%;/*
+    background-color: aquamarine;*/
   }
+
+  .b-card-hebergements__hotel a {
+    margin: 10px;
+    width: 100%;/*
+    background-color: blueviolet;*/
+  }
+/*
+  .b-card-hebergements__card-img {
+    border: 2px dashed black;
+  }
+
+  .b-card-hebergements__card-infos {
+    border: 2px dashed yellow;
+  }*/
 
 
  /* ---------------------ACTIVITES ---------------------*/
