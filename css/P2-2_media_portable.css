@@ -25,8 +25,8 @@
   }
   
   /*    --------         HEBERGEMENTS  ------------    */
-  /* carte d'un hotel fond blanc, bords arrondis : img = nom - prix - étoiles */
-  .b-card-hebergements__hotel {
+  /* carte d'un hotel fond blanc, bords arrondis : img = nom - prix - étoiles *//*
+  .b-card-hebergements__hotel  {
     width: 100%;
-  }
+  }*/
 }

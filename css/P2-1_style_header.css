@@ -10,8 +10,8 @@ nav ul {
    justify-content: flex-end; /*positionner à droite les deux li*/
    margin-right: 20px;
    margin: 0 ;
-
-   border: 2px dashed blue;
+/*
+   border: 2px dashed blue;*/
 }
 
 nav li {
@@ -19,9 +19,9 @@ nav li {
     justify-content: center;
     padding: 30px 0px 30px 0px;
     text-align: center;
-
+/*
     border: 2px solid purple;
-
+*/
   }
 
 .menu a {
@@ -30,9 +30,9 @@ nav li {
     margin-left : 2px;
     margin-right: 2px;
     max-width: 90%;
-
+/*
     border: 2px dashed blueviolet;
-
+*/
 }
 
 /*   > 992 px : écran d'ordinateur */

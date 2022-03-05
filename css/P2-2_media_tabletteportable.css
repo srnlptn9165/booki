@@ -85,55 +85,8 @@
 
   /*    --------         HEBERGEMENTS  ------------    */
   .b-card-hebergements__hotel {
-    background-color: pink;
-    /*
-    width: 100%;*/
+    width: 450px;
   }
-
-
-  .b-card-hebergements__card-img {
-    background-color: green;
-    
-  }
-  
-  .b-card-hebergements__card-img-param {
-    /*
-    display: flex;
-    align-content: center;
-    width: 100%;
-    height: 150px;*/
-    object-fit: cover; 
-  }
-
-
-  /* Ensemble Textes + Etoiles *//*
-  .b-card-hebergements__card-infos {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-content: flex-start;
-    padding-top: 0px;
-    margin: 0px;/*
-    border: 4px double purple;*//*
-  }*/
-
-
-/*
-  .b-card-hebergements {
-    margin-left: 10px;
-  }
-
-  .b-card-hebergements__hotel {
-    height: 350px;
-  }
-  .b-card-hebergements__card-img-param {
-    height: 250px;
-  }
-  .b-card-hebergements__card-infos {
-    /*
-    padding-left: 30px;*//*
-    height: 150px;/*
-  }*/
 
 
  /* ---------------------ACTIVITES ---------------------*/
@@ -142,10 +95,10 @@
   border: 2px dashed red;*/
   padding: 10px 10px 10px 10px;
 }
-/*
-h1.s-activites__titre { 
-  margin-left: 10px;
-}*/
+
+.titre_section--activites { 
+  margin-bottom: 20px;
+}
  
 /* bloc global des cartes (vert) */
 .s-activites__b-activites {
@@ -154,6 +107,30 @@ h1.s-activites__titre {
   border: 2px dashed green;*/
   padding: 0px;
 }
+
+
+/* particularités des blocs - réinitailisation  */
+
+.bloc2 {
+  margin: 0 ;
+}
+
+.bloc3 {
+  margin-right: 0%;
+}
+
+.carte-bas {
+  margin-top: 0px;
+}
+
+.card-40--haut {
+  margin-bottom: 0px;
+}
+
+.card-40--bas {
+  margin-top: 0px;
+}
+
 
 /* bloc présentant 1 carte ou 2 cartes (marron) */
 .b-activites__bloc-quart-activites {
@@ -193,12 +170,28 @@ h1.s-activites__titre {
 }
 
 /* bloc photo de la carte activite sur 1/2 hauteur*/
+.card-40--bas .bloc-quart-activites__img--demi  {
+  height: 250px;
+}
+
+.card-40--haut .bloc-quart-activites__img--demi  {
+  height: 250px;
+}
+
 .bloc-quart-activites__img--demi {/*
   border: 2px solid purple;*/
   height: 250px;
 }
 
 /* photo de la carte activite sur 1/2 hauteur*/
+.card-40--bas .bloc-quart-activites__img--S  {
+  height: 250px;
+}
+
+.card-40--haut .bloc-quart-activites__img--S  {
+  height: 250px;
+}
+
 .bloc-quart-activites__img--S {
   width: 100%;
   height:250px;
@@ -213,30 +206,11 @@ h1.s-activites__titre {
   height: 50px ;
 }
 
-
-/* particularités des blocs  */
-
-.bloc2 {
-  margin: 0 ;
-}
-
-.bloc3 {
-  margin-right: 0%;
-}
-
-.carte-bas {
-  margin-top: 0px;
-}
-
-
-
-
-
-
   /* ---------------------FOOTER ------------------------*/
   .footer__bloc {
     display: flex;
     width: 100%;
+    padding-left: 30px;
   }
 
   h2 {

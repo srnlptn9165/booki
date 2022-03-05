@@ -1,7 +1,8 @@
 /* positionnement de la section Activités sur la page */
 .s-activites {
     margin: 20px 2% 0 2%;
-    display: flex;/*
+    display: flex;
+    flex-direction: column;/*
     border: 2px dashed red;
     */
 }
@@ -34,8 +35,8 @@
 
 /* particularités du bloc article présentant la carte élémentaire (bleu) */
 .bloc-quart-activites__article {
-    background-color: white;
-    border: 2px solid grey;
+    background-color: white;/*
+    border: 2px solid grey;*/
     height: 700px;
     width: 100%;  
     box-shadow: 0px 5px 10px #F2F2F2;/*
@@ -57,7 +58,7 @@
 
 /* picture : bloc photo de la carte activite  (jaune) */
 .bloc-quart-activites__img {
-    height: 635px;
+    height: 650px;
     width: 100%;
     /*
     padding: 0 2% 0 2%;
@@ -67,7 +68,7 @@
 /* particularités de l'image sur une colonne photo de la carte activite */
 .bloc-quart-activites__img--X {
     width: 100%;
-    height:635px;
+    height:650px;
     align-items: center;
     object-fit: cover; 
 }
@@ -82,19 +83,38 @@
     border: 2px double purple;*/
 }
 
-/* particularités du bloc article présentant 1 carte sur 1/2 marron (bleu petit) */
+/* particularités du bloc article présentant 1 card-50 sur 1/2 marron (bleu petit) */
+
 .bloc-quart-activites__article--demi {
     background-color: white;
     box-shadow: 0px 5px 10px #F2F2F2;
-    height: 340px;
     /*
     border: 2px double grey;
     */
 }
+.card-50--haut{
+    height: 350px;
+}
+
+.card-50--bas{
+    height: 350px;
+}
+
+.card-40--haut {
+    margin-bottom: 100px;
+    height: 250px;
+}
+
+.card-40--bas {
+    margin-top: 100px;
+    height: 250px;
+}
+
+
 
 /* bloc photo de la carte activite sur 1/2 hauteur picture (purple)*/
 .bloc-quart-activites__img--demi {
-    height: 275px;
+    height: 300px;
     width: 100%;
     /*
     border: 2px double purple;
@@ -102,15 +122,30 @@
     */
 }
 
+.card-40--bas .bloc-quart-activites__img--demi  {
+    height: 200px;
+}
+
+.card-40--haut .bloc-quart-activites__img--demi  {
+    height: 200px;
+}
+
 /* photo de la carte activite sur 1/2 hauteur : particularités de l'image sur une demi colonne */
 .bloc-quart-activites__img--S {
     width: 100%;
-    height:275px;
+    height:300px;
     align-content: center;
     object-fit: cover;/*
     padding: 0 2%;*/
 }
 
+.card-40--bas .bloc-quart-activites__img--S  {
+    height: 200px;
+}
+
+.card-40--haut .bloc-quart-activites__img--S  {
+    height: 200px;
+}
 
 
 /*   > 992 px : écran d'ordinateur */

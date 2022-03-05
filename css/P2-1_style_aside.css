@@ -5,15 +5,15 @@
     flex-direction: column;
     width: 31%;
     background-color: #f2f2f2;
-    margin-left: 1%;
-    padding-left: 1%;/*
+    margin-left: 20px;
+    padding-left: 30px;/*
     border: 2px solid green;*/
 }
 
 /* Bloc Entête titre + icon-stat   B-Populaire__Entete => ex AsideIcone*/
 .b-populaire__entete {
     width: 100%;
-    padding: 2%;
+    padding : 20px 0 0 0;
     display: flex;
     justify-content: space-between;/*
     border: 4px double purple;*/
@@ -40,7 +40,7 @@
     margin: 10px 0;
     background-color: white;
     padding-right: 0px;
-    padding-left: 2%;
+    padding-left: 0px;
 }
 
 /* bloc picture de la photo */
@@ -57,7 +57,7 @@
     display: block;
     width: 100%;
     height: 98%;
-    margin: 2%;
+    margin: 1px;
     object-fit: cover; 
 }
 
